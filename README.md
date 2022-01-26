@@ -1,5 +1,5 @@
+# Learning Test-Driven Development using React
 
-Learning TDD React
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
