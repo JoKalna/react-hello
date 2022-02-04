@@ -7,3 +7,10 @@ it('renders withouth crashing', () => {
     const div = document.createElement('div')
     render(<Map />, div);
 });
+
+it('contains an image', ()=> {
+    render(<Map/>);
+    const logo = screen.getByRole('img');
+    expect(logo).toHaveAttribute('src', 'default.jpg');
+  
+})

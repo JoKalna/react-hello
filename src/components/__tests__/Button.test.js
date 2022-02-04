@@ -7,3 +7,9 @@ it('renders withouth crashing', () => {
     const div = document.createElement('div')
     render(<Button />, div);
 });
+
+it('finds button', () => {
+    render(<Button />);
+    const primaryButton = screen.getByRole('button', { name: /store/i })
+    expect(primaryButton).toBeInTheDocument();
+})

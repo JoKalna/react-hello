@@ -8,6 +8,7 @@ class StoreLocator extends Component {
     render() {
         return (<div><Header />
                      <Button />
+                     <Button />
                      <Map />
                 </div>);
     }

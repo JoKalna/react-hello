@@ -1,8 +1,8 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 
 class Map extends Component {
-    render(){
-        return('')
+    render() {
+        return (<img src="default.jpg" />)
     }
 }
 

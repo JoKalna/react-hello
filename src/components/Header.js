@@ -2,7 +2,7 @@ function Header() {
   return (
     <div className="Header">
         <p>
-         Hello World
+         This is header
         </p>
     </div>
   );
